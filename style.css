@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginForm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginForm .logo {
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+.loginForm .logo img {
+  height: 65px;
+}
+.loginForm .email input {
+  margin: 3px;
+  padding: 8px;
+  width: 268px;
+  height: 36px;
+  font-size: 12px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+.password input {
+  margin: 3px;
+  padding: 8px;
+  width: 268px;
+  height: 36px;
+  font-size: 12px;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+.loginbtn button {
+  height: 32px;
+  width: 268px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #4cb5f9;
+  background-color: #4cb5f9;
+  color: #f7fbff;
+  font-weight: bold;
+}
+.loginForm p {
+  margin: 2px;
+  font-size: 15px;
+  color: #737373;
+}
+.loginForm p:hover {
+  text-decoration: underline;
+  text-decoration-color: #0097f6;
+}
+.fb {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.fb a {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #385185;
+}
+.fb a img {
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+}
+.error p {
+  margin: 14px 0px;
+}
+.forgot {
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+.forgot a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #52376b;
+}
+.signupForm {
+  width: 350px;
+  padding: 10px 0px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.signupForm p {
+  margin: 15px;
+}
+.signupForm p a {
+  text-decoration: none;
+  color: #0095f6;
+  font-weight: bold;
+}
+.downloadApp {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.downloadApp p {
+  font-size: 16px;
+}
+.downloadApp .links {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.downloadApp .links .playstore a img {
+  height: 40px;
+  width: 135px;
+  margin-right: 8px;
+}
+.downloadApp .links .microsoft a img {
+  height: 40px;
+  width: 110px;
+}
+footer {
+  margin-top: 45px;
+}
+.line01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line01 ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.line01 ul li {
+  display: inline;
+  margin-right: 12px;
+  font-size: 13px;
+  color: #737373;
+}
+.line02 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 13px;
+  color: #737373;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line02 select {
+  color: #737373;
+  border: none;
+  outline: none;
+  font-size: 12px;
+  margin-right: 12px;
+}
